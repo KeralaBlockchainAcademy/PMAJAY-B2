@@ -28,6 +28,6 @@
 3. Write a paragraph about yourself (atleast 4 sentences)
 4. Find out the HTML tag for displaying scrollable text and demonstrate its application.
 
-Submit by **12-Apr-2024, 9.45am**
+Submit by **23-May-2024, 9.45am**
 
 
