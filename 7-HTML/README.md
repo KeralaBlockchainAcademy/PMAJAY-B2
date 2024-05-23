@@ -101,7 +101,7 @@ An active link is underlined and red
 4. Familiarize yourself with the following tags and include them in your web page - Superscript Text (`<sup>`), Subscript Text (`<sub>`), article, audio, canvas, nav and embed tags
 
 
-Submit this before **24-May-2024, 9.45am**
+Submit this before **27-May-2024, 12.00pm**
 
 **References**
 
