@@ -159,8 +159,7 @@ You will use **colspan** attribute if you want to merge two or more columns into
 2. Find out the tag to highlight the text.   
 3. Give a new look and feel for the portfolio website, include images, links, bgcolor, background image etc
 4. Familiarize yourself with the following tags and include them in your web page - Superscript Text (`<sup>`), Subscript Text (`<sub>`), article, audio, canvas, nav and embed tags
-5. Try out the TableLayout as shown in the image(TableLayoutNew.png)
-6. Modify the portfolio page to include a table to list the educational qualifications or experience
+
 
 Submit this before **24-May-2024, 9.45am**
 
