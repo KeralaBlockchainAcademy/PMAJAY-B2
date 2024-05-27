@@ -18,6 +18,12 @@ Submit before **29-May-2024, 12.45pm**
 
 **Notes**
 
+**Font(`<font>`)**
+
+The font tag has three attributes called size, color, and face to customize your fonts.
+
+`<font size="5" face="arial" color="green">Our blockchain courses are designed to immerse you in the nuances of blockchain technology, web3, and cryptocurrencies. </font>`
+
 **Table**
 
 The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create
