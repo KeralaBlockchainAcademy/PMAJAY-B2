@@ -19,7 +19,7 @@ The font tag has three attributes called size, color, and face to customize your
 
 `<font size="5" face="arial" color="green">Our blockchain courses are designed to immerse you in the nuances of blockchain technology, web3, and cryptocurrencies. </font>`
 
-**Basefont(`<font>`)**
+**Basefont(`<basefont>`)**
 
 The `<basefont>` element is supposed to set a default font size, color, and typeface for any parts of the document that are not otherwise contained within a `<font>` tag. You can use the `<font>` elements to override the  `<basefont>` settings. 
 
