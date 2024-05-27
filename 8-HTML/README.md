@@ -8,13 +8,8 @@
 4. Include a page to share a message with you by submitting a form
 5. List the hobbies/interests/passion
 
-Submit before **28-May-2024, 12.45pm**
+Submit before **28-May-2024, 9.45am**
 
-**Assignment-1**
-
-1. Build calculator interface similar to the given figure(Calculator.png)
-
-Submit before **29-May-2024, 12.45pm**
 
 **Notes**
 
