@@ -65,6 +65,7 @@ Attributes usually use the following syntax:
 Some of the most commonly used attributes are: align, bgcolor, src, height, width, value, href, hspace, id, class, style, title, dir, lang etc.
 
 **align:** Three possible values of align attribute: left, center and right.
+
 **bgcolor:** Places a background color behind an element. Options can be hexadecimal, RGB values - https://www.computerhope.com/htmcolor.htm
 
 `<body bgcolor="#ADD8E6">`
