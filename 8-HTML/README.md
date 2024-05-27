@@ -7,6 +7,8 @@
 3. Modify the portfolio page to include a table to list the educational qualifications or experience
 4. Include a page to share a message with you by submitting a form
 5. List the hobbies/interests/passion
+6. Include the video https://www.youtube.com/watch?v=b8QrDAi-fBM in KBA_Website page
+
 
 Submit before **28-May-2024, 9.45am**
 
