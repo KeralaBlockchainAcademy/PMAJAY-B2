@@ -21,6 +21,9 @@ sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+
+#### To start git repo in your local system and later move folder to github.
+
 4. Initialize git in a directory/folder
 ```bash
 git init
@@ -46,15 +49,6 @@ git init
 ```bash
 git pull --rebase <name of the remote repo> <name of branch>
 ```
-
-
-
-
-
-
-
-
-
 
 
 
