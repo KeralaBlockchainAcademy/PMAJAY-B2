@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 ul{
     list-style-type: square;
     /* text-align: right; */
@@ -10,11 +14,24 @@ li{
 p.c{
     text-align: justify;
 }
+a:visited{
+    color:aqua;
+    
+}
+a:hover{
+    color:crimson;
+}
+a:active{
+    color:green;
+}
 img{
     float: right;
     width:120px ;
     height:100px ;
     opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
 }
 p.a{
     border-style:solid;
@@ -40,3 +57,49 @@ table,td,th{
     margin-left: auto;
     margin-right: auto;
 }
+.navBar{
+    list-style-type: none;
+    display: flex;
+    background-color: chartreuse;
+    gap:20px;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color:coral
+}
+a.c{
+    color:white;
+
+}
+.image{
+    float: left;
+    padding-right: 10px;
+
+}
+.row{
+   display: flex;
+}
+.coloumn-side{
+    /* float: left; */
+    width: 25%;
+    height: 300px;
+    border-right: 1px solid rosybrown;
+    padding-right: 15px;
+}
+.coloumn-main{
+    width: 50%;
+    height: 300px;
+    border-right: 1px solid rosybrown;
+    padding-right: 15px;
+}
+.row:after{   /*for unaffecting the underlying contents*/
+    content:"";
+    display: table;
+    clear:both;
+}
+
