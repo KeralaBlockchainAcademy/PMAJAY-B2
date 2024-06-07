@@ -60,6 +60,7 @@ table,td,th{
 .navBar{
     list-style-type: none;
     display: flex;
+    
     background-color: chartreuse;
     gap:20px;
     padding: 15px;
@@ -83,6 +84,7 @@ a.c{
 }
 .row{
    display: flex;
+   /* flex-wrap: wrap; */
 }
 .coloumn-side{
     /* float: left; */
@@ -101,5 +103,22 @@ a.c{
     content:"";
     display: table;
     clear:both;
+}
+@media screen and (max-width:900px){
+    p.a{
+      background-color: blue;  
+    }  
+    .row{
+    display: block;
+    } 
+    .coloumn-side,.coloumn-main{
+    width:100%
+    }
+
+}
+@media screen and (max-width:600px){
+p.a{
+      background-color:crimson;  
+    }  
 }
 
