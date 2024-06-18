@@ -6,25 +6,34 @@
 ```
 
 Program to print pattern  
+```
 *
 **
 ***
+```
 Program to print pattern
+```
    *
   **
  ***
+```
 Program to print
+```
 1
 12
 123
+```
 
 Program to print 
+```
 1
 23
 456
+```
 
 Give the output on document.write(), document.getElement & console
-Program to find 3+4-1
+
+Program to find 3+4-1 
 Program to find (3*5)+1
 Program to find (5*2)/2
 Program to find 10*2+3-1
