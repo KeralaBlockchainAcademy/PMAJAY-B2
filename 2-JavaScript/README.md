@@ -9,6 +9,8 @@ Program to find (5*6)%4
 Program to find 3.5+2.4
 Program to find 104.5/5
 Program to find 4.5*2
+Find result of x=+z(assign values of x & y)
+Find result of x=*y
 
 Two variables x & y. Compare values
   (i)Result whether x==y
@@ -38,4 +40,3 @@ Add 2345678123456789012345123456789  &
   (ii) Both as normal number
   (iii)Both as bigint
 
-  
