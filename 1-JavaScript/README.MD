@@ -1,7 +1,9 @@
+```
 2+5
 5*10
 (26*3)+4
 56/5
+```
 
 Program to print pattern  
 *
