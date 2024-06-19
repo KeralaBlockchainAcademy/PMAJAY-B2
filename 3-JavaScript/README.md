@@ -44,18 +44,6 @@ Consider these two statements
 
 I have a file with js extension. I want to get the file name only with no extension.
 
-Enter a list of films you like
-
-```
-From the list print your most favourite film 
-Add one more film to the list
-Pop one element from list
-Delete the least interseted film from list
-Make a different array from 3rd position to 6th position
-Find the position of film acted by your favourite actor
-Search whether “Avesham” is on your list
-```
-
 Program to swap two numbers using a temporary variable 
 
 
