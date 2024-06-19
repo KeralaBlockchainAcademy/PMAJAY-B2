@@ -8,8 +8,7 @@ Create a dropdown containing name of books on the book shop page after List of B
 
 On the KBA site you created add a radio button showing your experience on KBA(like good, bad, average). 
 
-Create a dropdown for list of cakes and print
-the value of second option
+Create a dropdown for list of cakes and print the value of second option.
 
 Print your full name storing fname & lname. Print in Uppercase.
 
