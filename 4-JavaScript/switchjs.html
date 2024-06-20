@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=10;
+        let b=20;
+        let x= '%';
+        switch(x){
+            case '+':{
+                let z;
+                z=a+b;
+                document.write("The sum is ",z);
+                // document.write("The sum is",a+b);
+                break;
+            }
+            case '-':{
+                document.write("The difference is",a-b);
+                break;
+            }
+            case '*':{
+                document.write("The product is",a*b);
+                break;
+            }
+            case '/':{
+                document.write("The quotient is",a/b);
+                break;
+            }
+            default:{
+                document.write("enter a valid operator");
+            }
+        }
+    </script>
+</body>
+</html>
