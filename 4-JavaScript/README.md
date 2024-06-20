@@ -37,6 +37,9 @@ If the CGPA is 7 then print You got 7 CGPA.
 
 Write a program to print the month name by given number using switch
 
+Program to find whether the person is eligible for voting using ternary operator
+
+
 
 
 
