@@ -8,6 +8,15 @@ Program to read an array contain 20,25,30,35,40,45,50,55 and divide the array in
 
 Program to concatinate a=[2,4,6,8]  b=[1,3,5,7] as a single array
 
+Write a program to search an element in an array
+
+Program to read array=[8,2,6,7,3,1] . Sort the array in ascending & descending order
+
+Write a program to reverse a string
+
+Write a program to search a character in string
+
+
 
 ```
 Enter a list of films you like
