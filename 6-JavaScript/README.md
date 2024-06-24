@@ -12,9 +12,17 @@ Write a program to search an element in an array
 
 Program to read array=[8,2,6,7,3,1] . Sort the array in ascending & descending order
 
+Program to print mininmum and maximum element in the above array
+
+
 Write a program to reverse a string
 
 Write a program to search a character in string
+
+Write a program to read the array [1,6,7,8,2,3,4,2,9,2,2].Find the occurrence of 2 in this array
+
+Find union and intersection of these sorted arrays a=[4,5,6,7,8] b=[2,3,4,5,6]
+
 
 
 
@@ -73,9 +81,9 @@ Print the following patterns
                             7   8   9   10
 
 ```
-Enter the marks of a student and find the total marks and based on total marks
+Enter the marks of a student and find the total marks and based on total marks find the average
 ```
-Total marks>90% - A+
+Average>90% - A+
 90-80% - A
 80-70% -B+
 70-60% - B
