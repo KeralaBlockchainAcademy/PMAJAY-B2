@@ -1,3 +1,14 @@
+
+Write a program to copy an element in an array  to another array
+
+Write a program to copy an element in an array  to another array in reverse order
+
+
+Program to read an array contain 20,25,30,35,40,45,50,55 and divide the array into two arrays containing half the elements
+
+Program to concatinate a=[2,4,6,8]  b=[1,3,5,7] as a single array
+
+
 ```
 Enter a list of films you like
 From the list print your most favourite film 
@@ -53,6 +64,20 @@ Print the following patterns
                             7   8   9   10
 
 ```
+Enter the marks of a student and find the total marks and based on total marks
+```
+Total marks>90% - A+
+90-80% - A
+80-70% -B+
+70-60% - B
+60-50% - C+
+50-40% - C
+```
+Write a program to read an array of even numbers upto 20 and replace 16 from it.
+
+Enter a string and count number of vowels in string
+
+
 
 
 
