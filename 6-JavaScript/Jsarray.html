@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[];
+        // a[0]=1;
+        // a[1]=2;
+        // a[2]=3;
+        // a[3]=4;
+        j=2;
+       for(i=0;i<5;i++){
+        a[i]=j;
+        j=j+2;
+       }
+       document.write("The array is",a);
+       document.write("<br>Length of my array is",a.length); 
+//   a[0]+a[1]+a[2]+a[3]
+let sum=0;
+// for(i=0;i<5;i++){
+//    sum=sum+a[i];
+// }
+
+//for in loop  for(x in array_name)
+for(x in a){
+   sum=sum+ a[x];
+}
+for(x in a){
+    a[x]=a[x]+2;
+}
+// a[3]=25;
+for(i=0;i<5;i++){
+    if(i==3){
+        a[i]=25;
+        break;
+    }
+}
+a.push(30);
+
+document.write("<br>The sum of array is",sum);    
+document.write("<br>The array is",a)  ;
+let k="javascript";
+let b=[];
+document.write("<br>",k[2])
+for(i=0;i<k.length;i++){
+//    document.write("hi"); 
+b[i]=k[i];
+}
+document.write(b)
+b[4]='z';
+document.write(b[0]+b[1]+b[2]+b[3]+b[4]+b[5]+b[6]+b[7]+b[8]+b[9])
+    </script>
+
+</body>
+</html>
