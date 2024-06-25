@@ -70,15 +70,16 @@ Print the following patterns
    7 8 9 10
 
                                       * 
-                                     *  * 
-                                  *   *   * 
-                               *    *   *    *
+                                   *  *  *
+                                *  *  *  *  *
+                             *  *  *  *  *  *  *
+
 
 
                                   1 
-                                 2  3 
-                               4  5   6 
-                            7   8   9   10
+                               1  2  3 
+                            1  2  3   4  5 
+                         1  2  3  4   10 11
 
 ```
 Enter the marks of a student and find the total marks and based on total marks find the average
