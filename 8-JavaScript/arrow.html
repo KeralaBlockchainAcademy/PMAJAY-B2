@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arrow Function</title>
+</head>
+<body>
+    <h1> Arrow Function </h1>
+    <p> Check the console for output</p>
+    <script>
+        //regular function
+        let add = function(a,b){
+            return a +b;
+        };
+       
+        //arrow function
+        let addArrow = (a,b) => a+b;
+
+        console.log('Regular function:', add(2,3));
+        console.log('Arrow function: ',addArrow(2,3));
+
+        //`this` context in arrow functions
+        let person = {
+            name:'Alice',
+            age: 25,
+            greet: function(){
+                setTimeout(()=>{
+                    console.log('Hello,'+ this.name);
+                },10000);
+            }
+            
+        };
+        person.greet();
+    </script>
+</body>
+</html>

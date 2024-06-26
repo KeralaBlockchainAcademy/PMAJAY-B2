@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript object example </title>
+</head>
+<body>
+<h1>Check console for output</h1>
+<script>
+    //create an object in JS
+    let person = {
+        name: 'Alice',
+        age: 25,
+        city: 'Trivandrum',
+        greet: function(){
+            console.log('Hello: '+this.name);
+        }
+    };
+
+    console.log(person.name);
+    console.log(person.age);
+    console.log(person.city);
+    person.greet();
+</script>
+</body>
+</html>

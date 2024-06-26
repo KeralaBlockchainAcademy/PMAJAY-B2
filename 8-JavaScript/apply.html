@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Function properties: apply </title>
+</head>
+<body>
+    <h1>Using Apply method</h1>
+    <p> Check the console for output</p>
+    <script>
+        function introduce(greeting,punctuation){
+            console.log(greeting + ',' + this.name + punctuation);
+            
+        }
+        let person= {
+            name:'Bob'
+        };
+
+        //using apply to invoke person with this context
+        introduce.apply(person, ['Hi','!']); //Output: Hi, Bob!
+
+    </script>
+</body>
+</html>
