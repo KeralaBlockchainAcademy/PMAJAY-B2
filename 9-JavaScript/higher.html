@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher-Order Array Functions</title>
+</head>
+<body>
+    <h1>Higher-Order Array Functions</h1>
+    <p>Check the console for the output.</p>
+    <script>
+        const numbers = [1,2,3,4,5];
+        
+        doubled = numbers.map(num => num*2);
+        
+        console.log(doubled);
+        
+        const evens = numbers.filter(num => num%2 ===0);
+        console.log(evens);
+
+        const sum = numbers.reduce((acc,curr) => acc+curr);
+
+        console.log(sum);
+
+        let array = new Array(5).fill(0);
+
+        let array2d = new Array(5).fill(0).map(()=> new Array(5).fill(0));
+        
+        console.log(array);
+        console.log(array2d);
+        
+        for(i=0;i<array.length;i++){
+            array[i]=i+1;
+        }
+
+        console.log(array);
+        
+
+    </script>
+
+
+</body>
+</html>
+

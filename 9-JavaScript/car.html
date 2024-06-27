@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript Object Recap</title>
+</head>
+<body>
+    <h1>Object using new Object()</h1>
+    <p id="carDetails"></p>
+    <script>
+    const car = new Object();
+       
+    car.brand = "Toyota";
+    car.model = "Qualis";
+    car.getDetails = function(){
+        return `Brand: ${this.brand}, Model: ${this.model}`;
+    }
+    document.getElementById("carDetails").textContent = car.getDetails();
+
+    </script>
+
+</body>
+</html>
