@@ -19,4 +19,5 @@ Define a function named `calculate` that takes three parameters: `a`, `b`, and a
 - Create separate callback functions for addition, subtraction, multiplication, and division.
 - Use `calculate` to perform each of these operations with two numbers and log the results.
 - Additionally, use `bind` to create a new function for calculating the square of a number using the `calculate` function and log the result.
+- Edit - Can create a new function `calculateSingle` to bind with the function to square a number.
 
