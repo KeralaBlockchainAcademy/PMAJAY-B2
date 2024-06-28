@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = [2,3,4,5,6,7,8,9];
+        document.write("<br>The array is",a)
+        document.write("<br>The length of array is",a.length);
+        document.write("<br>Remove element on 2nd position");
+        x=a.length-1;
+        // document.write("<br>The length of array is",a.length);
+        for(i=0;i<x;i++){
+           if(i==1){
+            document.write("hi")
+            for(j=i;j<x;j++){
+                a[j]=a[j+1];
+
+            }
+            break;
+           }
+        }
+        document.write("<br>The new array is:")
+        for(i=0;i<x;i++){
+            document.write(a[i])
+        }
+    </script>
+</body>
+</html>
