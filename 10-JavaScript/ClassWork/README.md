@@ -1,4 +1,4 @@
-# Movie Playlist Manager Exercise
+# 1. Movie Playlist Manager Exercise
 
 ## Exercise Questions
 
@@ -45,3 +45,28 @@
 - Create separate files for HTML, CSS, and JavaScript.
 - Follow the questions to implement the Movie Playlist Manager.
 - Test each feature thoroughly.
+
+
+# 2. Expense Tracker Application
+
+## Objective
+Create an Expense Tracker application where users can add, edit, complete, and remove expenses. Each expense should have a description, an amount, and a category (1-Food, 2-Transport, 3-Entertainment). The application should use type conversion and arrays to manage the expenses and their categories.
+
+## Requirements
+
+### HTML Structure
+- An input field for the expense description.
+- An input field for the expense amount.
+- An input field for the expense category.
+- A button to add the expense.
+- A list to display the expenses.
+
+### JavaScript Functionality
+- Add an expense with description, amount, and category.
+- Display expenses with different colors based on category (Food - green, Transport - blue, Entertainment - purple).
+- Mark an expense as "completed" by striking through the text and changing the color to gray.
+- Edit the description of an expense.
+- Remove an expense from the list.
+- Use arrays to keep track of expenses and their categories.
+- Use type conversion to ensure the amount and category are handled correctly.
+
