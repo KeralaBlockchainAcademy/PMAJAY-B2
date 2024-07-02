@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+};
+
+#itemList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#itemList li {
+    padding: 8px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+#addItemForm {
+    margin-bottom: 20px;
+}

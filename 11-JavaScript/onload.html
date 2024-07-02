@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>On Load Example</title>
+</head>
+<body>
+    <div id="loadOutput"></div>
+    <script>
+        const loadMap = new Map();
+       window.onload = function(){
+        loadMap.set('load','Page has loaded');
+        document.getElementById('loadOutput').innerText = loadMap.get('load');
+       }
+    </script>
+</body>
+</html>
