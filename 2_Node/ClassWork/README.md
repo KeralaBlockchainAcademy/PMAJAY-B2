@@ -21,6 +21,16 @@ b. Display a list of recipes that include the specified ingredients (use a prede
 c. Allow users to save their favorite recipes to localStorage and view them later.  
 d. Provide an option to remove recipes from the favorites list.  
 
+3: Node.js program to Manage Event Registrations
+
+Create a Node.js program to manage event registrations using a Map to store registration details. Implement the following functionalities using the `readline` module for input:
+
+a. Add a registration with a unique ID, participant name, event name, and registration date. If the ID already exists, print an error message.  
+b. Remove a registration using its ID. If the registration is not found, print an error message.  
+c. Print all recorded registrations with their details.  
+d. Update the details of a registration using its ID. If the registration is not found, print an error message.  
+e. Print a summary report of registrations categorized by event name, showing the total number of registrations for each event.  
+
 
 
 Reference Implementation:  
