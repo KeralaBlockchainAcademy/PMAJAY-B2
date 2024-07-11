@@ -5,7 +5,7 @@ const app = express();
 app.use(cookieParser()); // Replace with a secure secret
 
 app.get('/set-cookie', (req, res) => {
-    res.cookie('username', 'john_doe', { maxAge: nil, httpOnly: true });
+    res.cookie('username', 'john_doe', { maxAge: 30000, httpOnly: true });
     res.send('Cookie set successfully!');
 });
 
