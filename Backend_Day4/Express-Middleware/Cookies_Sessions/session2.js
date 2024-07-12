@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(session({
   secret: 'your-secret-key', // Secret used to sign the session ID cookie
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
   cookie: { secure: false } // In production, set secure: true with HTTPS
 }));
 
