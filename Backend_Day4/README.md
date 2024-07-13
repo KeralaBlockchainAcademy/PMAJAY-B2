@@ -3,7 +3,7 @@
 
 1. You are building a logging system for an online store's server. You need to log every incoming request with its method and URL. Implement a middleware function to achieve this, and ensure that it works for all routes.(Easy)
 
-2. You are working on a user registration system. Implement chained middleware functions: one to validate the user input (e.g., ensure the email is provided) and another to process the registration (e.g., save the user to the database). If the validation fails, return a 400 status code.(Intermediate)
+2. You are working on a user registration system. Implement chained middleware functions: one to validate the user input (e.g., ensure the email is provided) and another to process the registration save the user in an array. If the validation fails, return a 400 status code.(Intermediate)
 
 3. You are developing a book review application where users can submit reviews for different books. Implement middleware to parse JSON bodies and handle a POST request to submit a review. The review data should include the book title and review content.(Easy)
 

@@ -10,7 +10,7 @@ app.use(cookieParser());
 // Configure session middleware
 app.use(session({
   secret: 'your-secret-key', // Secret used to sign the session ID cookie
-  resave: false,
+  resave: true,
   saveUninitialized: false,
   cookie: { secure: false } // In production, set secure: true with HTTPS
 }));

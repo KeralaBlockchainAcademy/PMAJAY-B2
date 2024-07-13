@@ -7,7 +7,7 @@ const PORT = 3001;
 // Session middleware configuration
 app.use(session({
   secret: '10', // Change this to a unique secret key
-  resave: false,           // Don't save session if unmodified
+  resave: true,           // Don't save session if unmodified
   saveUninitialized: false, // Save new sessions
   cookie:{ secure: false } // In production, set secure: true with HTTPS
 }));
