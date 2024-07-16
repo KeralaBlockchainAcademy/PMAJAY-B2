@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the value of `this` Keyword</title>
+</head>
+<body>
+    <h1>Checking scope of `this` keyword </h1>
+    <p>Check console for output</p>
+    <button onclick="showAlert()">show Alert</button>
+    <script>
+        //Global scope/context
+        console.log(this); //Window object
+        //function context
+        function showThis(){
+            console.log(this); 
+        }
+        
+        showThis(); // Window object
+        
+        //object method context
+        let person = {
+            name: 'Bob',
+            greet: function() {
+                console.log('Hello, '+this.name);
+            }
+        };
+        person.greet(); //Hello bob, this means object name
+
+        let arrowGreet = () => {
+            console.log('Arrow function this: ',this);
+        };
+        arrowGreet(); //window object
+
+        function showAlert(){
+            window.alert("Hello from window object!");
+        }
+
+        //Immediately invoked function expression(IIFE)
+
+        (function(){
+            console.log('IIFE is executed immediately');
+        })();
+        
+    </script>
+    
+</body>
+</html>

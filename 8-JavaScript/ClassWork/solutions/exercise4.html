@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function Examples</title>
+</head>
+<body>
+    <h1>JavaScript Function Examples</h1>
+    <p>Open the console to see the results.</p>
+    <script>
+        // Define the calculate function
+        function calculate(a, b, operation) {
+            return operation(a, b);
+        }
+
+        // Define the calculateSingle function
+        function calculateSingle(operation, a) {
+            return operation(a);
+        }
+
+        // Define callback functions
+        function add(a, b) {
+            return a + b;
+        }
+
+        function subtract(a, b) {
+            return a - b;
+        }
+
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        function divide(a, b) {
+            return a / b;
+        }
+
+        function square(a) {
+            return a * a;
+        }
+
+        // Use calculate to perform operations and log results
+        console.log(calculate(10, 5, add));       // Output: 15
+        console.log(calculate(10, 5, subtract));  // Output: 5
+        console.log(calculate(10, 5, multiply));  // Output: 50
+        console.log(calculate(10, 5, divide));    // Output: 2
+
+        // Create bound function for squaring a number using calculateSingle
+        const calculateSquare = calculateSingle.bind(null, square);
+
+        // Call the new function for squaring a number
+        console.log(calculateSquare(5)); // Output: 25
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age form example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1> Enter your age:</h1>
+    <form id="ageform">
+        <label for ="ageInput">Age:</label>
+        <input type="number" id="ageInput" name="age" min="0">
+        <button type="button" onclick="displayMessage()">submit</button>
+    
+    </form>
+    <p id="message"></p>
+
+    <script>
+        function displayMessage(){
+            const age = document.getElementById('ageInput').value;
+            const messageElement = document.getElementById('message');
+            if(age){
+                messageElement.textContent = `You are ${age} years old.`;
+            } else{
+                messageElement.textContent = 'Please enter your age.'
+            }
+
+        }
+    </script>
+</body>

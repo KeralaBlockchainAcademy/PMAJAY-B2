@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3,4,5];
+        
+        document.write("<br>The first array:",a);
+        // for(x of a){
+        //     document.write(x);
+        // }
+        let b=[2,3,4,5,6];
+        document.write("<br>The second array:",b)
+        // for(x in b){
+        //     document.write(b[x]);
+        // }
+        let c=[];
+        // c=a;
+        let d=[];
+        // document.write(c)
+        let t=0;
+        for(i=0;i<a.length;i++){
+            for(j=0;j<b.length;j++){
+                if(a[i]==b[j]){
+                    d[t]=a[i];
+                    t++;
+                }
+            }
+        }
+        document.write("<br>The intersection of two arrays is:",d)
+        c=a;
+        j=c.length;
+        // document.write("<br>",j)
+        let count;
+        for(i=0;i<b.length;i++){
+            // document.write(b[i])
+            count=0;
+            for(k=0;k<d.length;k++){
+                if(b[i]==d[k]){
+                    count++;
+                    break;
+                }
+            }
+            if(count==0){
+                c[j]=b[i];
+            }
+           
+            // document.write(count);
+        }
+        document.write("<br>The union of two arrays is:",c)
+        // document.write(b[1]);
+        // document.write(d[1])
+        // let count;
+        // for(i=0;i<b.length;i++){
+        //      count=0;
+        //     document.write("hi");
+            
+        //    for(k=0;k<d.length;k++){
+        //     if(b[i]==d[k]){
+        //     count++;
+        //     break;
+        //      }
+        //      }
+        //      if(count==0){
+        //         c[j]=b[i];
+        //         j++;
+        //      }
+        //     }
+        //      document.write("<br>",c)
+    </script>
+</body>
+</html>

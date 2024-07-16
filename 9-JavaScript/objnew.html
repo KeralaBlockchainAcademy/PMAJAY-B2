@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object new Example</title>
+</head>
+
+<body>
+    <h1> JavaScript object new example </h1>
+    <p id="originalPerson"></p>
+    <p id="modifiedPerson"></p>
+    <script>
+        const person ={
+            firstName: "John",
+            lastName:"Mathew",
+            age:30,
+            eyeColor:"blue"
+        }
+        //Display original object
+        document.getElementById("originalPerson").innerHTML =
+           `Original Person Object: ${JSON.stringify(person)}`;
+        //create a copy of object person   
+        const x = person;
+        //change age for x, which will change for both
+        x.age = 10;
+        //Display modified object
+        document.getElementById("modifiedPerson").innerHTML = 
+            `Modified Person Object: ${JSON.stringify(person)}`;
+    </script>
+</body>

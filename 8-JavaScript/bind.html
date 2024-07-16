@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using bind Method</title>
+</head>
+<body>
+    <h1>Using bind Method</h1>
+    <p>Check the console for the output.</p>
+    <script>
+        function greet(){
+            console.log('Hello: '+ this.name);
+        }
+        let person ={
+            name: 'Charlie'
+        };
+        //Using bind to create a new function with person as 'this'
+        let greetPerson = greet.bind(person);
+        greetPerson(); // Output: Hello: Charlie
+    </script>
+</body>
+</html>

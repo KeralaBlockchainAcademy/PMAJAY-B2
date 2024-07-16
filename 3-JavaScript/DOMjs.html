@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">
+        <h1>Hello World</h1>
+        
+    </div>
+    <script>
+       let element= document.createElement("p");
+       element.innerHTML="Welcome to the world of JavaScript";
+       document.getElementById("mydiv").appendChild(element);
+       let element1= document.createElement("input");
+       element1.placeholder="Enter the name";
+       document.getElementById("mydiv").appendChild(element1);
+    </script>
+</body>
+</html>
