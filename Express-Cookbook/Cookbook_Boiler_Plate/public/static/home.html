@@ -15,13 +15,13 @@
       class="bg-blue-500 text-white p-4 flex justify-between items-center"
     >
       <nav class="flex space-x-4">
-        <!-- <a href="/home" class="text-white text-lg">Home</a> -->
-        <a href="home.html" class="text-white text-lg">Home</a>
-        <!-- <a href="/favourites" class="text-white text-lg">Favourites</a> -->
-        <a href="favourites.html" class="text-white text-lg">Favourites</a>
+        <a href="/home" class="text-white text-lg">Home</a>
+        <!-- <a href="home.html" class="text-white text-lg">Home</a> -->
+        <a href="/favourites" class="text-white text-lg">Favourites</a>
+        <!-- <a href="favourites.html" class="text-white text-lg">Favourites</a> -->
       </nav>
-      <!-- <form action="/logout" method="POST"> -->
-      <form action="/">
+      <form action="/logout" method="POST">
+      <!-- <form action="/"> -->
         <button type="submit" class="bg-white text-blue-500 rounded px-4 py-1">
           Logout
         </button>
@@ -32,8 +32,8 @@
     <main class="flex-grow p-4">
       <!-- Search Bar -->
       <div class="max-w-3xl mx-auto mb-8">
-        <!-- <form action="/search" method="GET" class="w-full max-w-md flex"> -->
-        <form action="/" class="w-full max-w-md flex">
+        <form action="/search" method="GET" class="w-full max-w-md flex">
+        <!-- <form action="/" class="w-full max-w-md flex"> -->
             <input type="text" name="query" placeholder="Search recipes..." class="flex-grow rounded-l px-4 py-2 border border-gray-300">
             <button type="submit" class="bg-blue-500 text-white rounded-r px-4 py-2">Search</button>
         </form>
