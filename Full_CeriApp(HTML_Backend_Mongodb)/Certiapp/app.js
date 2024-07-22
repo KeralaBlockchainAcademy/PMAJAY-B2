@@ -9,7 +9,7 @@ dotenv.config();
 const uri = process.env.mongo_uri;
 
 mongoose.connect(
-    uri // using .env
+    uri // using .env 
 );
 const database = mongoose.connection;
 database.on("error", (error) => {

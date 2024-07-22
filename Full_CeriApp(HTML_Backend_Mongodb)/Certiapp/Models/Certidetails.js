@@ -29,6 +29,7 @@ const demo = new Schema({
    // Add other fields as needed
 }  );
 
+demo.index({ CertID: 1 }, { unique: true });
 
 const CertiDetails = model('certidetails', demo);
 module.exports= CertiDetails;
