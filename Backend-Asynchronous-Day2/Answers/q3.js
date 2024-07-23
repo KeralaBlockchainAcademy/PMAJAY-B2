@@ -7,6 +7,7 @@ const urls = [
   async function fetchUrlsAndLogResponseTimes(urls) {
     for (const url of urls) {
       const start = Date.now();
+      console.log(start)
       try {
         await fetch(url);
         const end = Date.now();

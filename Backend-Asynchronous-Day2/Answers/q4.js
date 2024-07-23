@@ -13,7 +13,7 @@ async function fetchWithRetry(url, retries = 3) {
     }
     }
     
-    fetchWithRetry('https://jsonplaceholder.typicode.com/posts/1')
+    fetchWithRetry('https://jsonplaceholder.typicode.com/poss/1')
     .then(data => console.log(data))
     .catch(error => console.error('Failed to fetch data:', error));
     

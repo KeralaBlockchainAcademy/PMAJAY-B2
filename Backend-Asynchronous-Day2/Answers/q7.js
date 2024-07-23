@@ -19,6 +19,7 @@ async function fetchWithTiming(url) {
     const results = await Promise.all(promises);
   
     let longestRequest = results[0];
+    console.log(results)
     for (const result of results) {
         console.log(result.duration);
       if (result.duration > longestRequest.duration) {
