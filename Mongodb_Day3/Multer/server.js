@@ -3,6 +3,8 @@ const multer = require('multer');
 const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs');
+const sharp = require('sharp'); // Import sharp
+
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/imageUpload');
@@ -66,7 +68,18 @@ app.get('/image/:id', async (req, res) => {
     const imagePath = path.join(image.path);
 
    // res.set('Content-Type', 'image/jpeg');
-    res.sendFile(imagePath);
+   // res.sendFile(imagePath);
+   sharp(imagePath)
+      .resize({ width: 200 }) // Resize to a width of 200 pixels (adjust as needed)
+      .toBuffer()
+      .then(data => {
+        res.type('image/jpeg');
+        res.send(data);
+      })
+      .catch(err => {
+        console.error('Error processing image:', err);
+        res.status(500).send('Error processing image');
+      });
     //res.sendFile(path.join(__dirname, image.path));
     console.log("imagePath")
   } catch (error) {
