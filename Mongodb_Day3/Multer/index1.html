@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload and Retrieve</title>
+</head>
+<body>
+  <h1>Upload an Image</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*" required>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h1>Retrieve an Image</h1>
+  <form id="retrieveForm">
+    <label for="imageId">Enter Image ID:</label>
+    <input type="text" id="imageId" name="imageId" required>
+    <button type="submit">Retrieve Image</button>
+  </form>
+
+  <h2>Retrieved Image:</h2>
+  <img id="retrievedImage" src="" alt="Retrieved Image" style="display: none;">
+
+  <script>
+    document.getElementById('retrieveForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const imageId = document.getElementById('imageId').value;
+      const imageUrl = `/image/${imageId}`;
+
+      fetch(imageUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Image not found');
+          }
+          return response.blob();
+        })
+        .then(blob => {
+          const img = document.getElementById('retrievedImage');
+          img.src = URL.createObjectURL(blob);
+          img.style.display = 'block';
+        })
+        .catch(error => {
+          alert(error.message);
+        });
+    });
+  </script>
+</body>
+</html>
